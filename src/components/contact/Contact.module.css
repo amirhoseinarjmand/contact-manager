@@ -1,0 +1,74 @@
+.Contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0.7rem;
+    gap: 1rem;
+    width: 37rem;
+    background-color: #455A64;
+}
+
+/* _____________________________ image ___________________________- */
+
+.Contact> :nth-child(1) {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* _____________________________ info ___________________________- */
+
+.info {
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    background-color: #EEE;
+    padding: 1rem;
+}
+
+.info>span {
+    width: 100%;
+    padding-right: 0.2rem;
+}
+
+.info>span:not(:nth-child(4)) {
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid #000;
+}
+
+/* _____________________________ button ___________________________- */
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.btn>button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem;
+}
+
+@media screen and (max-width: 575px) {
+
+    .Contact {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .info {
+        width: 85%;
+    }
+
+    .btn {
+        flex-direction: row;
+    }
+
+}

@@ -1,0 +1,98 @@
+.title {
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgba(91, 91, 91, 0.405);
+    padding: 1rem 3rem;
+    color: rgba(255, 255, 255, 0.911);
+    margin: 0 auto;
+    transform: translateY(-65%);
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+    gap: 3rem;
+}
+
+.info>img {
+    border: 3px solid #000;
+    object-fit: cover;
+    transform: translateY(-10%);
+}
+
+/* ____________________________ form _________________________ */
+
+.form {
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: 75%;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.form>input {
+    direction: rtl;
+    background-color: #37474F;
+    color: #fff;
+}
+
+.form>select {
+    direction: rtl;
+    background-color: #37474F;
+}
+
+.form>input:focus {
+    background-color: #90A4AE;
+}
+
+.form>select:focus {
+    background-color: #90A4AE;
+}
+
+.form>input::placeholder {
+    color: #fff
+}
+
+.form>input:focus::placeholder {
+    color: #000
+}
+
+/* ____________________________ btn _________________________ */
+
+.btn {
+    display: flex;
+    gap: 1rem;
+    width: 35%;
+    margin-top: 2rem;
+    transform: translateX(35%);
+}
+
+@media screen and (max-width: 1400px) {
+    .title {
+        padding: 1rem 1rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .title {
+        padding: 1rem 1rem;
+        margin-top: 3rem;
+        font-size: 0.7rem;
+    }
+
+    .AddContact>:nth-child(1) {
+        display: none;
+    }
+
+    .btn {
+        width: 70%;
+    }
+
+}

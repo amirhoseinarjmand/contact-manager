@@ -1,0 +1,60 @@
+.title {
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgba(91, 91, 91, 0.405);
+    padding: 1rem 3rem;
+    color: rgba(255, 255, 255, 0.911);
+    margin: 0 auto;
+    transform: translateY(-65%);
+}
+
+/* ____________________________ info _________________________ */
+
+.info {
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 3rem;
+    margin-top: 4rem;
+    background-color: #455A64;
+}
+
+.info> img {
+    border: 3px solid #000;
+    object-fit: cover;
+}
+
+.cntactDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #EEE;
+    padding: 1rem 3rem;
+    width: 60%;
+}
+
+.cntactDetails > span {
+    padding-right: 1rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cntactDetails > span:not(:nth-child(5)) {
+    border-bottom: 1px solid #000;
+    padding-bottom: 1rem;
+}
+
+.cntactDetails > span > :nth-child(1) {
+    font-weight: 800;
+}
+
+.cntactDetails > span > :nth-child(2) {
+    margin: 0 auto;
+    font-weight: bolder;
+}

@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+}
+
+.navbar> :nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+@media screen and (max-width: 795px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1rem auto;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    .navbar {
+        padding: 1rem 0;
+    }
+
+}

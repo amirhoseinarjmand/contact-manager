@@ -1,0 +1,33 @@
+.Main {
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 4rem;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 4rem;
+    row-gap: 4rem;
+}
+
+@media screen and (max-width: 800px) {
+
+    .main {
+        margin-top: 2rem ;
+    }
+
+}

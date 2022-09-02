@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Vazir';
+    
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.App {
+    align-items: center;
+    background-color: #263238;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* ______________________________________ scroll ______________________________ */
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #555;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FF5722;
+    border-radius: 1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(249, 0, 0);
+}
+
+/* ______________________________________ color ______________________________ */
+
+:root {
+    --themeColor: #FF5722;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('../public/font/Vazir.eot');
+    src: url('../public/font/Vazir.eot?#iefix') format('embedded-opentype'),
+        url('../public/font/Vazir.woff2') format('woff2'),
+        url('../public/font/Vazir.woff') format('woff'),
+        url('../public/font/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
